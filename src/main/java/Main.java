@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
         config.title = "Snake";
-        config.width = 800;
-        config.height = 600;
+        config.width = Config.cellSize * Config.windowSize;
+        config.height = Config.cellSize * Config.windowSize;
         config.forceExit = true;
         config.foregroundFPS = 60;
 
